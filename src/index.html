@@ -1,13 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <title>My First Parcel App</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="app.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Creek Bears</title>
+    <link rel="stylesheet" href="./app.css" />
   </head>
-  <body>
-    <h1>Hello, Parcel!</h1>
-    <p>This is a vanilla web app built with Parcel 2!<br>Check out the <a href="https://parceljs.org/getting-started/webapp/" target="_blank">getting started guide</a> and the <a href="https://parceljs.org/docs/" target="_blank">documentation</a> to learn more!</p>
+  <body
+    class="bg-slate-200 p-6 pt-0 text-slate-800 dark:bg-slate-700 dark:text-slate-200"
+  >
+    <main class="mx-auto flex w-2/3 flex-col gap-4 rounded-xl pt-8">
+      <header class="rounded-xl bg-white dark:bg-slate-800">
+        <div class="flex h-2 basis-full shadow dark:shadow-none">
+          <div class="flex-1 bg-bear-brown"></div>
+          <div class="flex-1 bg-bear-orange"></div>
+          <div class="flex-1 bg-bear-yellow"></div>
+          <div class="flex-1 bg-bear-pale-yellow"></div>
+          <div class="flex-1 bg-white"></div>
+          <div class="flex-1 bg-bear-gray"></div>
+          <div class="flex-1 bg-black"></div>
+        </div>
+        <div class="p-8 pt-4">
+          <h1
+            class="bg-gradient-to-b from-gray-200 via-bear-brown to-bear-orange bg-clip-text text-6xl font-bold text-transparent dark:from-bear-yellow dark:via-bear-yellow dark:to-white"
+          >
+            Deep Creek Bears
+          </h1>
+          <p class="mt-4 text-xl">Save the date</p>
+          <p class="block text-2xl font-semibold">
+            Oct 26, 2023 - Oct 30, 2023
+          </p>
+        </div>
+      </header>
+      <section class="rounded-xl bg-white p-8 pt-4 dark:bg-slate-800">
+        <h2 class="text-4xl font-bold text-bear-yellow">Keep in Touch</h2>
+        <form class="pt-8">
+          <label class="hidden">email</label>
+          <input
+            class="rounded-l p-2 text-xl text-orange-500"
+            type="email"
+            placeholder="email"
+          />
+          <input
+            class="rounded-r bg-orange-500 p-2 text-xl hover:cursor-pointer"
+            type="submit"
+            value="Sign up"
+          />
+        </form>
+      </section>
+    </main>
   </body>
 </html>
