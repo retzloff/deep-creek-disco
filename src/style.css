@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.25rem;
+}
+
+section.intro {
+  @apply grid overflow-hidden;
+  grid-template: 'container';
+  place-items: start center;
+  max-height: clamp(450px, 50vh, 600px);
+}
+
+section > * {
+  grid-area: container;
+  max-width: 100%;
+}
+
+img {
+  filter: grayscale(80%) brightness(0.6);
+  transition: filter 1s;
+  z-index: 0;
+}
+
+img:hover {
+  filter: grayscale(20%) brightness(0.8);
+}
+
+header {
+  height: 20px;
+  background: linear-gradient(
+    to right,
+    #613704 14.28%,
+    #d46300 14.28% 28.56%,
+    #fddc62 28.56% 42.84%,
+    #fde5b7 42.84% 57.12%,
+    #fff 57.12% 71.4%,
+    #545454 71.4% 85.68%,
+    #000 85.68%
+  );
+}
