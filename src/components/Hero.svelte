@@ -6,7 +6,10 @@
 	<div>
 		<h1>Deep Creek Bears <span>2023</span></h1>
 		<p>October 26-30, 2023</p>
-		<p><a href="https://ti.to/deep-creek-bears/2023">Reserve your spot</a></p>
+		<p><a class="cta" href="https://ti.to/deep-creek-bears/2023">Reserve your spot</a></p>
+		<p>
+			Questions? <a href="mailto:matt@d-domains.net">Send us an email</a>
+		</p>
 	</div>
 	<img src={house} alt="Front of Boulder Heights" />
 </header>
@@ -42,6 +45,9 @@
 		text-decoration: none;
 		font-weight: 600;
 		color: var(--anzac);
+	}
+
+	.cta {
 		padding: 0.25rem 0.5rem;
 	}
 
