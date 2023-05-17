@@ -1,5 +1,5 @@
 <script>
-	import house from '$lib/assets/house-back.jpg';
+	// import house from '$lib/assets/house-back.jpg';
 </script>
 
 <header class="grid">
@@ -11,17 +11,22 @@
 			Questions? <a href="mailto:matt@d-domains.net">Send us an email</a>
 		</p>
 	</div>
-	<img src={house} alt="Front of Boulder Heights" />
 </header>
 
 <style>
 	header {
 		--rounded: 0.5rem;
+		color: white;
+		background-color: var(--sirocco);
+		background-image: url($lib/assets/house-back.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		min-height: 400px;
 	}
 
 	.grid {
 		display: grid;
-		gap: 1rem;
 		place-items: center;
 	}
 
@@ -31,10 +36,11 @@
 	}
 
 	div {
-		text-align: center;
-		padding: 1rem 1.5rem;
-		background: hsl(0, 0%, 0%, 0.8);
+		margin-inline: 1rem;
 		border-radius: var(--rounded);
+		padding: 1rem 1.5rem;
+		text-align: center;
+		background: hsl(0, 0%, 0%, 0.8);
 	}
 
 	h1 {
@@ -53,12 +59,5 @@
 
 	a:hover {
 		text-decoration-line: underline;
-	}
-
-	img {
-		border-radius: var(--rounded);
-		aspect-ratio: 16/9;
-		object-fit: cover;
-		z-index: -1;
 	}
 </style>
