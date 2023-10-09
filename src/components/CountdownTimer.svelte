@@ -50,6 +50,5 @@
 <div
 	class=" mt-2 py-2 text-3xl text-center font-semibold font-mono bg-cloud-burst/90 rounded shadow-lg"
 >
-	{timeLeft.days} days
-	{timeLeft.hours}h : {timeLeft.minutes}m : {timeLeft.seconds}s
+	{timeLeft.days}d : {timeLeft.hours}h : {timeLeft.minutes}m : {timeLeft.seconds}s
 </div>
