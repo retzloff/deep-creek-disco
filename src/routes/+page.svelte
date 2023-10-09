@@ -15,7 +15,7 @@
 </section>
 
 <section class="bg-anzac">
-	<h2>Days to go</h2>
+	<h2>Countdown</h2>
 	<CountdownTimer />
 </section>
 
@@ -28,7 +28,7 @@
 </section>
 
 <section class="bg-swamp-green">
-	<h2>Meals and Stuff</h2>
+	<h2>Meals</h2>
 	<div>Coming Soon...</div>
 </section>
 
