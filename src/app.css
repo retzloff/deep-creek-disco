@@ -3,13 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		@apply bg-black;
+	}
+
 	body {
 		font-family: system-ui, -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen-Sans,
 			Ubuntu, Cantarell, “Helvetica Neue”, Arial, sans-serif;
+		@apply bg-gradient-to-r from-cloud-burst via-cloud-burst/30 to-cloud-burst;
 	}
 
 	section {
-		@apply mx-auto max-w-lg px-4 py-6;
+		@apply mx-auto max-w-lg p-4 pb-8;
 		@apply text-slate-100;
 	}
 
