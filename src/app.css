@@ -2,20 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	/* https://colormagic.app/palette/LeyZMmImFOyT4TGDYeIy */
+@layer base {
+	body {
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen-Sans,
+			Ubuntu, Cantarell, “Helvetica Neue”, Arial, sans-serif;
+	}
 
-	--cloud-burst: #1e2b43;
-	--anzac: #e09f3e;
-	--selective-yellow: #fab700;
-	--sirocco: #6f7b78;
-	--swamp-green: #a3b48e;
+	section {
+		@apply mx-auto max-w-lg px-4 py-6;
+		@apply text-slate-100;
+	}
 
-	--page-background: var(--cloud-burst);
-	--primary-text: white;
-}
-body {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen-Sans, Ubuntu,
-		Cantarell, “Helvetica Neue”, Arial, sans-serif;
-	background-color: var(--page-background);
+	h1 {
+		@apply pt-2 text-4xl;
+	}
+
+	h2 {
+		@apply text-3xl font-semibold;
+	}
+
+	img {
+		@apply rounded;
+	}
+
+	address {
+		@apply not-italic;
+	}
 }
