@@ -7,5 +7,5 @@
 	allow="fullscreen"
 	loading="lazy"
 	referrerpolicy="no-referrer-when-downgrade"
-	class="rounded shadow-lg"
+	class="rounded shadow-lg w-full"
 />

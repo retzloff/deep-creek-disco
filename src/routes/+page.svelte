@@ -20,7 +20,7 @@
 </section>
 
 <section class="bg-sirocco">
-	<h2>Rooms - We still have them</h2>
+	<h2>Rooms - We still have some</h2>
 	<p>
 		<a href="mailto:matt@d-domains.net">Send us an email</a>
 		if you're interested or pass this on if you know someone who would be. The price is $360 per person.
