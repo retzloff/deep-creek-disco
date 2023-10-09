@@ -14,12 +14,21 @@
 	<p class="">October 26th - 30th, 2023</p>
 </section>
 
-<section class="bg-anzac">
+<section class="bg-anzac light">
 	<h2>Countdown</h2>
 	<CountdownTimer />
 </section>
 
 <section class="bg-sirocco">
+	<h2>Rooms - We still have them</h2>
+	<p>
+		<a href="mailto:matt@d-domains.net">Send us an email</a>
+		if you're interested or pass this on if you know someone who would be. The price is $360 per person.
+		We currently have one single and one double available.
+	</p>
+</section>
+
+<section class="bg-selective-yellow light">
 	<h2>Location</h2>
 	<address>
 		<div class="pb-2">105 Boulder Ridge Dr, McHenry, MD 21541</div>
