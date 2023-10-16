@@ -1,5 +1,9 @@
 <dl>
 	<dt>Thursday</dt>
+	<dd>
+		<span>Dinner</span>
+		<a href="https://msbcdeepcreek.com">Mountain State Brewing Co.</a>
+	</dd>
 	<dt>Friday</dt>
 	<dd><span>Breakfast</span>On your own</dd>
 	<dd><span>Lunch</span>Deli trays</dd>
@@ -30,7 +34,7 @@
 	}
 
 	dd {
-		@apply ml-4 grid grid-cols-[1fr_4fr];
+		@apply ml-4 grid grid-cols-[1fr_4fr] flex-nowrap;
 	}
 
 	span {
