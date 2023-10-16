@@ -2,6 +2,7 @@
 	import Stripe from '../components/Stripe.svelte';
 	import CountdownTimer from '../components/CountdownTimer.svelte';
 	import BoulderHeightsMap from '../components/BoulderHeightsMap.svelte';
+	import MealList from '../components/MealList.svelte';
 </script>
 
 <div class="mx-auto max-w-lg">
@@ -34,17 +35,17 @@
 
 <section class="bg-selective-yellow light">
 	<h2>The House</h2>
-	<p>Check-in: Thursday at 4pm.</p>
-	<p>Check-out: Monday at 12pm.</p>
+	<p>Check-in: Thursday after 4pm.</p>
+	<p>Check-out: Monday before 12pm.</p>
 	<address>
 		<div class="pb-2">105 Boulder Ridge Dr, McHenry, MD 21541</div>
 		<BoulderHeightsMap />
 	</address>
 </section>
 
-<section class="bg-swamp-green">
+<section class="bg-swamp-green light">
 	<h2>Meals</h2>
-	<div>Coming Soon...</div>
+	<MealList />
 </section>
 
 <div class="mx-auto max-w-lg">
