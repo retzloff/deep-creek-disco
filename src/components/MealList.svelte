@@ -11,8 +11,8 @@
 	<dd><span>Breakfast</span>On your own</dd>
 	<dd><span>Lunch</span>Deli trays</dd>
 	<dd>
-		<span>Dinner</span>Tacos & Nachos<br />Proteins (carne asada, turkey, meatless option), peppers
-		+ onions, pulled salsa chicken, rice + beans, fixings
+		<span>Dinner</span>Tacos & Nachos<br />Proteins (carne asada, turkey, meatless option), Peppers
+		+ Onions, Pulled Salsa Chicken, Rice + Beans, Fixings
 	</dd>
 	<dt>Sunday</dt>
 	<dd><span>Breakfast</span>On your own</dd>
