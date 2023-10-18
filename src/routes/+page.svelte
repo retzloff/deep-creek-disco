@@ -25,12 +25,7 @@
 </section>
 
 <section class="bg-sirocco">
-	<h2>Rooms - We still have some</h2>
-	<p>
-		<a href="mailto:matt@d-domains.net">Send us an email</a>
-		if you're interested or pass this on if you know someone who would be. The price is $360 per person.
-		We currently have one single and one double available.
-	</p>
+	<h2>Rooms - <span class="text-2xl">We're full! 😀 See you all there.</span></h2>
 </section>
 
 <section class="bg-selective-yellow light">

@@ -14,7 +14,7 @@
 	}
 
 	section {
-		@apply mx-auto max-w-lg p-4 pb-8;
+		@apply mx-auto max-w-lg p-4 pb-6;
 		@apply text-slate-100;
 		@apply shadow-2xl;
 		@apply space-y-2;
