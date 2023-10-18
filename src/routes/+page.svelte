@@ -31,7 +31,7 @@
 <section class="bg-selective-yellow light">
 	<h2>The House</h2>
 	<p>Check-in: Thursday after 4pm.</p>
-	<p>Check-out: Monday before 12pm.</p>
+	<p>Check-out: Monday before 11am.</p>
 	<address>
 		<div class="pb-2">105 Boulder Ridge Dr, McHenry, MD 21541</div>
 		<BoulderHeightsMap />
