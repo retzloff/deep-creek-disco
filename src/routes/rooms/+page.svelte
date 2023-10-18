@@ -17,6 +17,6 @@
 
 <style>
 	span {
-		@apply inline-block w-36;
+		@apply inline-block w-32;
 	}
 </style>
