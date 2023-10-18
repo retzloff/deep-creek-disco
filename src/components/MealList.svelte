@@ -20,18 +20,6 @@
 </dl>
 
 <style>
-	dt {
-		@apply pt-2 font-semibold;
-	}
-
-	dt:first-of-type {
-		@apply pt-0;
-	}
-
-	dd {
-		@apply ml-4 grid grid-cols-[1fr_4fr] flex-nowrap;
-	}
-
 	span {
 		@apply inline-block w-24;
 	}

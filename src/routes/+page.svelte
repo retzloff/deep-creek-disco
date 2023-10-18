@@ -1,13 +1,8 @@
 <script>
-	import Stripe from '../components/Stripe.svelte';
 	import CountdownTimer from '../components/CountdownTimer.svelte';
 	import BoulderHeightsMap from '../components/BoulderHeightsMap.svelte';
 	import MealList from '../components/MealList.svelte';
 </script>
-
-<div class="mx-auto max-w-lg">
-	<Stripe />
-</div>
 
 <section class="text-slate-200 bg-cloud-burst">
 	<div class="">
@@ -42,10 +37,3 @@
 	<h2>Meals</h2>
 	<MealList />
 </section>
-
-<div class="mx-auto max-w-lg">
-	<Stripe />
-</div>
-
-<style>
-</style>
