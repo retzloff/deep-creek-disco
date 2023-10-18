@@ -3,10 +3,6 @@
 
 	<div class="p-4 flex rounded bg-white/10">
 		<dl class="">
-			<dt>The DM</dt>
-			<dd>Will</dd>
-		</dl>
-		<dl class="">
 			<dt>Players</dt>
 			<dd>Alex</dd>
 			<dd>Ben C</dd>
