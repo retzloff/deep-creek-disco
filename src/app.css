@@ -61,6 +61,6 @@
 	}
 
 	li {
-		@apply list-disc list-inside;
+		@apply ml-8 leading-6 list-disc;
 	}
 }

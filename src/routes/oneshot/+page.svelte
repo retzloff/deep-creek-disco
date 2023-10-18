@@ -1,24 +1,23 @@
 <section class="text-slate-200 bg-cloud-burst">
-	<h1>D&D One Shot</h1>
+	<h1 class="text-sm">D&D One Shot</h1>
+	<h2>Chaos at the Colosseum</h2>
+	<h3 class="">(In Space)!!</h3>
 
-	<div class="p-4 flex rounded bg-white/10">
-		<dl class="">
-			<dt>Players</dt>
+	<section class="px-2 py-2 flex rounded bg-white/10">
+		<dl>
+			<dt>The&nbsp;Players</dt>
 			<dd>Alex</dd>
-			<dd>Ben C</dd>
+			<dd>Ben&nbsp;C</dd>
 			<dd>Eric</dd>
 			<dd>Jonathan</dd>
 			<dd>Levi</dd>
-			<dd>Matt V</dd>
-		</dl>
-		<dl class="">
-			<dt>The DM</dt>
+			<dd>Matt&nbsp;V</dd>
+			<dt>The&nbsp;DM</dt>
 			<dd>Will</dd>
 		</dl>
-	</div>
+	</section>
 
-	<h2>Chaos at the Colosseum <br /> (In Space)!!</h2>
-	<p>
+	<p class="">
 		A strange colosseum floats in the astral sea. Warriors gather from every plane, with reasons to
 		fight as varied as the fighters themselves. Some seek honor, some money, some bloodshed, and
 		some simply seek to survive.
@@ -30,7 +29,7 @@
 	<h3>Character FAQ</h3>
 
 	<p class="font-semibold text-lg">You:</p>
-	<ul>
+	<ul class="space-y-4">
 		<li>
 			Lvl 5. Any playable race, class, and subclass. (You can bring a premade character or use one
 			that I prepare. https://www.fastcharacter.com (https://www.fastcharacter.com) is a great easy
