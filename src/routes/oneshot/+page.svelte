@@ -8,6 +8,7 @@
 			<dt>The&nbsp;Players</dt>
 			<dd>Alex</dd>
 			<dd>Ben&nbsp;C</dd>
+			<dd>Bill</dd>
 			<dd>Eric</dd>
 			<dd>Jonathan</dd>
 			<dd>Levi</dd>
