@@ -2,8 +2,11 @@
 <dl>
 	<dt>Thursday</dt>
 	<dd>
-		<span>Dinner</span>
-		<a href="https://msbcdeepcreek.com">Mountain State Brewing Co.</a>
+		<span />
+		<ul>
+			<li><a href="https://msbcdeepcreek.com">Mountain State Brewing Co. + Trivia</a></li>
+			<li><a href="https://moonshadow145.com">MoonShadow</a></li>
+		</ul>
 	</dd>
 	<dt>Friday</dt>
 	<dd>

@@ -20,7 +20,7 @@
 </section>
 
 <section class="bg-sirocco">
-	<h2>Rooms - <span class="text-2xl">We're full! 😀 See you all there.</span></h2>
+	<h2>Rooms - <span class="text-2xl">We're full! 😀 See you there.</span></h2>
 </section>
 
 <section class="bg-selective-yellow light">
