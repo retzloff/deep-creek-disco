@@ -1,5 +1,5 @@
 <script>
-	let targetDate = new Date('2023-10-26T016:00:00').getTime();
+	let targetDate = new Date('2023-10-26T16:00:00').getTime();
 	let timeLeft = calculateTimeLeft();
 
 	function calculateTimeLeft() {
