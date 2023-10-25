@@ -29,7 +29,7 @@
 	</address>
 </section>
 
-<section class="bg-swamp-green light">
+<section class="bg-anzac light">
 	<h2>Meals</h2>
 	<MealList />
 </section>

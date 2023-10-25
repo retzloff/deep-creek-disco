@@ -1,5 +1,5 @@
 <p>Breakfast will be on your own. Lunches will be provided deli trays.</p>
-<p>Dinner will be</p>
+<p>Dinners will be</p>
 <dl>
 	<dt>Thursday</dt>
 	<dd>
