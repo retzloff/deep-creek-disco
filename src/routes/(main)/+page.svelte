@@ -1,7 +1,7 @@
 <script>
-	import CountdownTimer from '../components/CountdownTimer.svelte';
-	import BoulderHeightsMap from '../components/BoulderHeightsMap.svelte';
-	import MealList from '../components/MealList.svelte';
+	import CountdownTimer from '../../components/CountdownTimer.svelte';
+	import BoulderHeightsMap from '../../components/BoulderHeightsMap.svelte';
+	import MealList from '../../components/MealList.svelte';
 </script>
 
 <section class="text-slate-200 bg-cloud-burst">

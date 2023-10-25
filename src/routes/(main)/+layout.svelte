@@ -1,7 +1,6 @@
 <script>
-	import '../app.css';
-
-	import Stripe from '../components/Stripe.svelte';
+	import '../../app.css';
+	import Stripe from '../../components/Stripe.svelte';
 </script>
 
 <div class="min-h-screen">

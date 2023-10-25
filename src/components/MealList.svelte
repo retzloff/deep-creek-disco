@@ -1,29 +1,27 @@
 <p>Breakfast will be on your own. Lunches will be provided deli trays.</p>
+<p>Dinner will be</p>
 <dl>
 	<dt>Thursday</dt>
 	<dd>
-		<span />
-		<ul>
-			<li><a href="https://msbcdeepcreek.com">Mountain State Brewing Co. + Trivia</a></li>
-			<li><a href="https://moonshadow145.com">MoonShadow</a></li>
+		<ul class="list-inside">
+			<li class="mx-0">
+				<a href="https://msbcdeepcreek.com">Mountain State Brewing Co. + Trivia</a>
+			</li>
+			<li class="mx-0 uppercase text-sm font-semibold">
+				<a href="https://moonshadow145.com">MoonShadow</a>
+			</li>
 		</ul>
 	</dd>
 	<dt>Friday</dt>
 	<dd>
-		<span>Dinner</span>Crock Potluck - Shepherd's Pie, Sausage and Peppers, Caesar Salad + Fixings,
-		Bacon Wrapped Chicken with White Rice
+		Crock Potluck - Shepherd's Pie, Sausage and Peppers, Caesar Salad + Fixings, Bacon Wrapped
+		Chicken with White Rice
 	</dd>
 	<dt>Saturday</dt>
 	<dd>
-		<span>Dinner</span>Tacos & Nachos<br />Proteins (carne asada, turkey, meatless option), Peppers
-		+ Onions, Pulled Salsa Chicken, Rice + Beans, Fixings
+		Tacos & Nachos, Proteins (carne asada, turkey, meatless option), Peppers + Onions, Pulled Salsa
+		Chicken, Rice + Beans, Fixings
 	</dd>
 	<dt>Sunday</dt>
-	<dd><span>Dinner</span>Leftovers</dd>
+	<dd>Leftovers</dd>
 </dl>
-
-<style>
-	span {
-		@apply inline-block w-24;
-	}
-</style>
