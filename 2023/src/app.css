@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply bg-black;
+	}
+
+	body {
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Oxygen-Sans,
+			Ubuntu, Cantarell, “Helvetica Neue”, Arial, sans-serif;
+		@apply bg-gradient-to-r from-cloud-burst via-cloud-burst/30 to-cloud-burst;
+	}
+
+	section {
+		@apply mx-auto max-w-lg p-4 pb-4 mb-4 rounded border-white/20 border-2;
+		@apply text-slate-100;
+		@apply shadow-2xl;
+		@apply space-y-2;
+	}
+
+	section.light {
+		@apply text-cloud-burst;
+	}
+
+	h1 {
+		@apply text-4xl;
+	}
+
+	h2 {
+		@apply text-3xl font-semibold;
+	}
+
+	h3 {
+		@apply text-2xl;
+	}
+
+	a {
+		@apply underline underline-offset-2;
+	}
+
+	img {
+		@apply rounded;
+	}
+
+	address {
+		@apply not-italic;
+	}
+
+	dt {
+		@apply pt-2 font-semibold;
+	}
+
+	dd {
+		@apply ml-4;
+	}
+
+	li {
+		@apply ml-8 leading-6 list-disc;
+	}
+}
