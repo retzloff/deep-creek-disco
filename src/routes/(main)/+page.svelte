@@ -1,14 +1,9 @@
-<div class="h-screen flex flex-col justify-center">
+<div class="flex h-screen flex-col justify-center px-4">
 	<div
-		class="mx-auto border border-y border-orange-800 py-8 px-4 md:px-8 space-y-2 text-white bg-gradient-to-br from-orange-500 to-orange-800 shadow-xl max-w-lg rounded-xl text-center"
+		class="mx-auto w-full max-w-lg space-y-6 rounded-xl border-4 border-orange-800 bg-gradient-to-br from-orange-500 to-orange-800 px-4 py-8 text-center text-white shadow-xl md:px-8"
 	>
-		<div class="border-b-2 border-white/50 pb-4 px-4">
-			<h1 class="text-3xl md:text-4xl font-semibold">Deep Creek Bears 2024</h1>
-			<h2 class="text-xl">October 24 - 28, 2024</h2>
-		</div>
-		<p class="pt-4 text-2xl font-bold text-white/90 capitalize italic">Save the date!</p>
+		<h1 class="text-xl font-semibold sm:text-4xl">Deep Creek Bears 2024</h1>
+		<h2 class="text-xl italic sm:text-3xl">October 24 - 28</h2>
+		<p class="text-lg font-semibold capitalize text-white/90 sm:text-3xl">Save the date!</p>
 	</div>
 </div>
-
-<style>
-</style>
