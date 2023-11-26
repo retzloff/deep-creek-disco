@@ -48,6 +48,6 @@
 </script>
 
 <div class="text-lg font-semibold text-white/90 sm:text-xl">
-	Only {timeLeft.days} days to go
+	{timeLeft.days} days to go
 	<!-- {timeLeft.days}d : {timeLeft.hours}h : {timeLeft.minutes}m : {timeLeft.seconds}s -->
 </div>
