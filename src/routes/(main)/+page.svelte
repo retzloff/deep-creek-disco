@@ -9,7 +9,6 @@
 		<h1 class="text-xl font-semibold sm:text-4xl">Deep Creek Bears 2024</h1>
 		<h2 class="text-xl italic sm:text-3xl">October 24 - 28</h2>
 		<hr />
-		<p class="text-xl font-semibold text-white/90 sm:text-3xl">Save the date</p>
 		<CountdownTimer />
 	</div>
 </div>
