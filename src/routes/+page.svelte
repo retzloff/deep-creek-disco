@@ -33,7 +33,7 @@
     <div class="w-full py-8 flex flex-col">
       <div class="text-center">
         <h1 class="text-5xl font-bold mb-4 text-bear-gold">Deep Creek Bears 2025</h1>
-        <p class="text-2xl mb-8 text-bear-cream">23-27 October</p>
+        <p class="text-2xl mb-8 text-bear-cream">23-27 October 2025</p>
       </div>
 
       <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-12">
