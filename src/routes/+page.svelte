@@ -32,7 +32,11 @@
   <main class="flex-1 flex items-center bg-navy-800">
     <div class="w-full py-8 flex flex-col">
       <div class="text-center">
-        <h1 class="text-5xl font-bold mb-4 text-bear-gold">Deep Creek Bears 2025</h1>
+        <h1
+          class="text-5xl font-bold mb-4 bg-gradient-to-b from-bear-gold to-bear-orange-brown inline-block text-transparent bg-clip-text"
+        >
+          Deep Creek Bears 2025
+        </h1>
         <p class="text-2xl mb-8 text-bear-cream">23-27 October 2025</p>
       </div>
 
