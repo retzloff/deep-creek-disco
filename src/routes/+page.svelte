@@ -10,13 +10,19 @@
   $effect(() => {
     const eventDate = new Date('2025-10-23');
     const now = new Date();
-    const diffTime = Math.max(eventDate - now, 0);
 
-    months = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 30.44));
-    const remainingDays = diffTime % (1000 * 60 * 60 * 24 * 30.44);
+    // Calculate months until October
+    let monthDiff = (eventDate.getFullYear() - now.getFullYear()) * 12;
+    monthDiff += eventDate.getMonth() - now.getMonth();
+    months = monthDiff;
 
-    weeks = Math.floor(remainingDays / (1000 * 60 * 60 * 24 * 7));
-    days = Math.floor((remainingDays % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+    // Calculate total days between now and the event
+    const totalDays = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
+    // Subtract approximate days for the months we've counted
+    const remainingDays = totalDays - monthDiff * 30;
+
+    weeks = Math.floor(remainingDays / 7);
+    days = remainingDays % 7;
   });
 
   const handleSubmit = e => {
