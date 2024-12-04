@@ -94,7 +94,7 @@
       </div>
 
       <form on:submit={handleSubmit} class="max-w-md mx-auto">
-        <p class="text-bear-cream mb-4">Stay updated with the latest news and announcements!</p>
+        <p class="text-bear-cream mb-4">Stay updated with the latest announcements!</p>
         <div class="flex flex-col gap-2">
           <div class="flex gap-2">
             <input
