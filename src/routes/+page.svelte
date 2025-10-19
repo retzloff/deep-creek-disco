@@ -93,34 +93,34 @@
         </div>
       </div>
 
-      <form on:submit={handleSubmit} class="max-w-md mx-auto">
-        <p class="text-bear-cream mb-4">Stay updated with the latest announcements!</p>
+      <form onsubmit={handleSubmit} class="max-w-md mx-auto">
+        <p class="text-bear-cream mb-4">Stay updated with the latest announcements.</p>
         <div class="flex flex-col gap-2">
           <div class="flex gap-2">
             <input
               type="email"
-              bind:value={email}
+              bind:value={$email}
               placeholder="Email address"
               class="flex-1 px-4 py-2 rounded-l-lg bg-bear-gray/20 border border-bear-orange-brown
                              placeholder-bear-cream/50 text-bear-cream
                              focus:outline-none focus:border-bear-gold focus:ring-1 focus:ring-bear-gold
                              disabled:opacity-50 disabled:cursor-not-allowed"
               required
-              disabled={isSubmitting}
+              disabled={$isSubmitting}
             />
             <button
               type="submit"
               class="px-6 py-2 bg-bear-orange-brown hover:bg-bear-dark-brown rounded-r-lg transition-colors
                              text-bear-cream hover:text-bear-gold
                              disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-bear-orange-brown disabled:hover:text-bear-cream"
-              disabled={isSubmitting}
+              disabled={$isSubmitting}
             >
-              {isSubmitting ? 'Signing up...' : 'Sign Up'}
+              {$isSubmitting ? 'Signing up...' : 'Sign Up'}
             </button>
           </div>
-          {#if submitMessage}
-            <p class={`text-sm ${submitError ? 'text-red-400' : 'text-bear-cream'}`}>
-              {submitMessage}
+          {#if $submitMessage}
+            <p class={`text-sm ${$submitError ? 'text-red-400' : 'text-bear-cream'}`}>
+              {$submitMessage}
             </p>
           {/if}
         </div>
